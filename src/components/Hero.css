@@ -1,0 +1,89 @@
+.hero-section {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.background-image {
+    background-image: url('../assets/hero-3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: brightness(0.5); /* Example custom CSS: adjust brightness */
+}
+
+/* Additional custom CSS */
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+.bg-gradient-to-r {
+    background: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-gradient-from: var(--tw-color-primary);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+}
+
+.bg-primary {
+    background-color: var(--tw-color-primary);
+}
+
+.text-primary {
+    color: var(--tw-color-primary);
+}
+
+/* Custom classes for styling text and buttons */
+.text-center {
+    text-align: center;
+}
+
+.leading-tight {
+    line-height: 1.25;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.p-20 {
+    padding: 5rem;
+}
+
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-8 {
+    margin-bottom: 2rem;
+}
+
+.px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.hover\:bg-blue-100:hover {
+    background-color: #ebf8ff;
+}
+
+.transition {
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.duration-300 {
+    transition-duration: 300ms;
+}
