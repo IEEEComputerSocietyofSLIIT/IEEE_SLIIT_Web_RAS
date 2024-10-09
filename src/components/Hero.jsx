@@ -1,5 +1,6 @@
 import React from "react";
 import hero from "../assets/hero-3.jpg"
+import { Link } from "react-scroll";
 
 export default function Hero() {
     return (
@@ -22,7 +23,9 @@ export default function Hero() {
                                     Join us in advancing robotics and automation with cutting-edge technology and limitless creativity.
                                 </p>
                                 <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                                    <a href="#" className="bg-white text-primary font-bold px-8 py-3 rounded-full hover:bg-blue-100 transition duration-300 text-center">Join Us</a>
+                                <Link to="contact" smooth={true} duration={1000}>
+                                    <a href="#contact" className="bg-white text-primary font-bold px-8 py-3 rounded-full hover:bg-blue-100 transition duration-300 text-center">Join Us</a>
+                                </Link>
                                 </div>
                             </div>
 

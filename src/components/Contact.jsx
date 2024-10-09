@@ -62,11 +62,11 @@ export default function Contact() {
                                 </ul>
                                 <ul class="grid gap-6 items-center  space-y-2 md:ml-auto md:flex-row md:space-y-0 font-semibold" >
                                     <li class="text-gray-300 border-b border-gray-500"><a href="#">Useful Links</a></li>
-                                    <li class="text-gray-300"><a href="#">Home</a></li>
-                                    <li class="text-gray-300"><a href="#">Join Us</a></li>
-                                    <li class="text-gray-300"><a href="#">About Us</a></li>
-                                    <li class="text-gray-300"><a href="#">Committee</a></li>
-                                    <li class="text-gray-300"><a href="#">Contact Us</a></li>
+                                    <li class="text-gray-300"><a href="/">Home</a></li>
+                                    {/* <li class="text-gray-300"><a href="#">Join Us</a></li> */}
+                                    <li class="text-gray-300"><a href="#about">About Us</a></li>
+                                    <li class="text-gray-300"><a href="#committee">Committee</a></li>
+                                    <li class="text-gray-300"><a href="#contact">Contact Us</a></li>
                                 </ul>
                             </div>
                             <div className="card h-fit max-w-6xl p-5 md:p-12" id="form">

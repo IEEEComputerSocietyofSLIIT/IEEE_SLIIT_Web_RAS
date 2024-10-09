@@ -1,9 +1,10 @@
 import React from "react";
-import Profile from "../assets/profile.jpg";
+import Profile1 from "../assets/Wijethunga HNUD - Chair.jpg";
+import Profile2 from "../assets/Secretary.jpeg";
 import Yasodas from "../assets/Yasodas.jpg";
 import Imethma from "../assets/Imethma_Kariyawasam.jpg"
 import Owadi from "../assets/Owadi.jpg";
-import Nisuni from "../assets/Nisuni.JPG"
+import bhanuka from "../assets/Mr. Bhanuka Dayawansa.jpeg"
 
 export default function Team() {
     return (
@@ -71,6 +72,25 @@ export default function Team() {
             </section>
 
             <section class="max-w-screen-lg px-10 mx-auto my-10  md:my-20">
+            <section class="max-w-screen-2xl  mx-auto mb-20">
+                <h1 class="mb-8 text-center font-sans text-4xl font-bold text-primary">Chapter Advisor<span class="text-black">.</span></h1>
+                {/* <p class=" text-gray-600 text-md text-center max-w mb-10"></p> */}
+                <div class="mx-auto flex align-middle justify-center">
+                    <article class="w-full md:w-[800px] md:items-center md:flex grid rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
+                        <div class="relative  flex items-end overflow-hidden rounded-xl">
+                            <img src={bhanuka} alt="Hotel Photo" className="w-[300px]" />
+
+                        </div>
+
+                        <div class="mt-1 p-2 md:p-10">
+                            <h2 class="text-gray-900 font-semibold text-lg">Mr. Bhanuka Dayawansa</h2>
+                            <p class="text-primary mt-1 text-sm font-semibold ">Instructor, Faculty of Engineering | Mechanical Engineering</p>
+
+
+                        </div>
+                    </article>
+                </div>
+            </section>
 
 
                 <h1 class="mb-8 text-center font-sans text-4xl font-bold text-primary">Current executive board<span class="text-black">.</span></h1>
@@ -82,7 +102,7 @@ export default function Team() {
                     <article class="rounded-xl bg-white max-w-[400px] md:w-[300px] p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
                         <a href="https://www.linkedin.com/in/nisuni-sineja-184414304">
                             <div class="relative flex items-end overflow-hidden rounded-xl">
-                                <img src={Profile} alt="Hotel Photo" />
+                                <img src={Profile1} alt="Hotel Photo" />
 
                             </div>
 
@@ -98,7 +118,7 @@ export default function Team() {
                     <article class="rounded-xl bg-white max-w-[400px] md:w-[300px] p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
                         <a href="http://www.linkedin.com/in/owadibandara">
                             <div class="relative flex items-end overflow-hidden rounded-xl">
-                                <img src={Profile} alt="Hotel Photo" />
+                                <img src={Profile2} alt="Hotel Photo" />
 
                             </div>
 
