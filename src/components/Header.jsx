@@ -29,6 +29,10 @@ export default function Header() {
         <li class="text-gray-600 md:ml-12 hover:text-primary"><a href="#">Committee</a></li></Link>
         <Link to="contact" smooth={true} duration={1000}>
         <li class="text-gray-600 md:ml-12 hover:text-primary"><a href="#">Contact</a></li></Link>
+        
+        <li class="text-gray-600 md:ml-12 hover:text-primary">
+          <a href="https://ieeesliit.com/events" target="_blank" rel="noopener noreferrer">Events</a>
+        </li>
       </ul>
     </nav>
   </div>
