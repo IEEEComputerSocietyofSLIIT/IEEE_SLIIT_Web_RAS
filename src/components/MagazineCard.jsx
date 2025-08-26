@@ -4,15 +4,15 @@ export default function JoybotsMagazine() {
   const magazine = {
     name: "JOYBOTS 2.0",
     description:
-      "Joybots 2.0, the second edition of our very own online magazine by the IEEE Robotics and Automation Society of SLIIT. Bringing you exciting student projects, industry insights, highlights from our events, and a sneak peek into future projects.",
+      "Joybots 2.0 is the second edition of our very own online magazine by the IEEE Robotics and Automation Society of SLIIT. It brings you exciting student projects, industry insights, highlights from our events, and a sneak peek into future projects.",
     image: joyBots2Image,
     organizer: "IEEE Robotics and Automation Society Chapter, SLIIT",
     stayUpdatedLink: "https://tinyurl.com/mr2ek62z",
-    stayupdatedtext: "Read Now",
+    stayUpdatedText: "Read Now",
   };
 
   return (
-    <div className="container mx-auto px-4 mt-10">
+    <div id="magazine" className="container mx-auto px-4 mt-10">
       {/* Section Title */}
       <div className="flex flex-col items-center justify-center space-y-8 mb-10">
         <h2 className="text-4xl font-bold text-center text-primary">
@@ -57,7 +57,7 @@ export default function JoybotsMagazine() {
                            bg-gradient-to-r from-purple-600 to-pink-500 
                            hover:opacity-90 transition"
               >
-                {magazine.stayupdatedtext}
+                {magazine.stayUpdatedText}
               </button>
             </a>
           </div>
