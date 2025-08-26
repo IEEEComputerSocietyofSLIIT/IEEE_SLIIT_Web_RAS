@@ -19,12 +19,28 @@ export default function Header() {
     <nav aria-label="Header Navigation" class="peer-checked:mt-8 peer-checked:max-h-56 flex max-h-0 w-full flex-col items-center justify-between overflow-hidden transition-all  md:max-h-full md:flex-row md:items-start">
       <ul class="flex flex-col  items-center  space-y-2 md:ml-auto md:flex-row md:space-y-0 font-semibold" >
       <Link to="nav" smooth={true} duration={1000}>
-        <li class="text-gray-600 md:ml-auto hover:text-primary"><a href="#">Home</a></li></Link>
-        <Link to="about" smooth={true} duration={1000}>
-        <li class="text-gray-600 md:ml-12 hover:text-primary"><a href="#">About Us</a></li></Link>
-        <Link to="join" smooth={true} duration={1000}>
-        <li class="text-gray-600 md:ml-12 hover:text-primary"><a href="#">Join Us</a></li></Link>
-        
+  <li class="text-gray-600 md:ml-auto hover:text-primary">
+    <a href="#">Home</a>
+  </li>
+</Link>
+
+<Link to="about" smooth={true} duration={1000}>
+  <li class="text-gray-600 md:ml-12 hover:text-primary">
+    <a href="#">About Us</a>
+  </li>
+</Link>
+
+<Link to="magazine" smooth={true} duration={1000}>
+  <li class="text-gray-600 md:ml-12 hover:text-primary">
+    <a href="#">Magazine</a>
+  </li>
+</Link>
+
+<Link to="join" smooth={true} duration={1000}>
+  <li class="text-gray-600 md:ml-12 hover:text-primary">
+    <a href="#">Join Us</a>
+  </li>
+</Link>
         <Link to="committee" smooth={true} duration={1000}>
         <li class="text-gray-600 md:ml-12 hover:text-primary"><a href="#">Committee</a></li></Link>
         <Link to="contact" smooth={true} duration={1000}>
