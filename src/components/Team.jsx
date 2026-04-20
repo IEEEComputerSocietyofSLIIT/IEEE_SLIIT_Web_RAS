@@ -27,37 +27,37 @@ const teamMembers = [
         name: "Achira Karunarathne",
         position: "Chairperson",
         image: achira,
-        link: "mailto:achirakaru2002@gmail.com",
+        link: "https://www.linkedin.com/in/achira-karunarathne-401654366/",
     },
     {
         name: "Sithum Ekanayaka",
         position: "Vice Chairperson",
         image: sithum,
-        link: "mailto:sithumsathsara111@gmail.com",
+        link: "http://www.linkedin.com/in/sithum-sathsara-b287b6317",
     },
     {
         name: "Chamudi Welikanna",
         position: "Secretary",
         image: chamudi,
-        link: "mailto:chamudirashmikawelikanna@gmail.com",
+        link: "https://www.linkedin.com/in/chamudi-welikanna-120497307?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     },
     {
         name: "Rakhita Gunasekara",
         position: "Assistant Secretary",
         image: rakhita,
-        link: "mailto:rakithag100@gmail.com",
+        link: "https://www.linkedin.com/in/rakhita-gunasekara-72616123b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
         name: "Tharuka Pathmasiri",
         position: "Treasurer",
         image: tharuka,
-        link: "mailto:tharukathidas2002@gmail.com",
+        link: "https://www.linkedin.com/in/tharuka-thidas-pathmasiri-a77b7b360?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
     },
     {
         name: "Vidara Karannagoda",
         position: "Editor",
         image: vidara,
-        link: "mailto:ransiluni.2002@gmail.com",
+        link: "http://www.linkedin.com/in/vidara-karannagoda-75ab18335",
     },
 ];
 
